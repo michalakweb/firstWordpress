@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>O kurrrka!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="styles/mycustom.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+  </head>
+
+  <body>
+	  <nav>
+		<img src="images/logoMin.bmp" alt="">
+		  <!--<a href="#">Menu</a>-->
+		  <container id="szukajka">
+			  <form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Przepisy" aria-label="Search">
+				  <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Szukaj</button>
+			  </form>
+		  </container>
+		  
+		  <div id="tagi" class="dropdown">
+			  <button class="btn btn-block btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Przepisy wg kategorii
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				  <a class="dropdown-item" href="#">Action</a>
+				  <a class="dropdown-item" href="#">Another action</a>
+				  <a class="dropdown-item" href="#">Something else here</a>
+			  </div>
+		  </div>
+		  
+		  <!--<p id="oBlogu">
+			  O kurrrka! to blog kulinarny, moja przygoda z gotowaniem, eksperymenty i podróże kulinarne. Łatwe gotowanie krok po kroku. 
+		  </p>-->
+		  
+		  <!--<ul id="link">
+		  	<h3>Aktualności</h3>
+		  	<h3>O mnie</h3>
+		  </ul>-->
+		  
+		  <img id="ikonki" src="images/ikonki.jpg" alt="">
+		
+	  </nav> 
+	  
+	  <section id="meals">
+	  	<div class="container-fluid">
+	  		<div class="row">
+	  			<div class="col-4">
+	  		
+	  			</div>				
+				<div class="col-4">
+				
+				</div>
+				<div class="col-4">
+				
+				</div>
+	  		</div>
+	  	</div>
+	  	<div class="container-fluid">
+	  		<div class="row">
+	  			<div class="col-4">
+	  			
+	  			</div>				
+				<div class="col-4">
+					
+				</div>
+				<div class="col-4">
+					
+				</div>
+	  		</div>
+	  	</div>
+		<div class="container">
+			  <div class="row">
+				  <div class="col-4">
+					 
+				  </div>				
+				  <div class="col-4">
+					  
+				  </div>
+				  <div class="col-4">
+					  <div id="podpis">
+					  	<p>Kuetek w sosie czekoladowym</p>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+     <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+	    var col = document.querySelectorAll('.col-4');
+		col[0].style.backgroundColor = 'red';
+		
+		for(var i = 0; i < col.length; i++) {
+			col[i].style.backgroundImage = 'url(../images/' + i + '.jpeg)'
+		}
+		
+		
+			
+	</script>
+  </body>
+</html>

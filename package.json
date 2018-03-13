@@ -1,0 +1,33 @@
+{
+  "name": "firstwordpress",
+  "version": "0.0.1",
+  "description": "Testing ground for first Wordpress blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalakweb/firstWordpress.git"
+  },
+  "keywords": [
+    "wordpress",
+    "php",
+    "gulp"
+  ],
+  "author": "Mateusz Michalak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalakweb/firstWordpress/issues"
+  },
+  "homepage": "https://github.com/michalakweb/firstWordpress#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
