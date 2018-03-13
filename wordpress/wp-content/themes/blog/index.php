@@ -10,13 +10,13 @@
     <title>Blog Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="http://localhost/wp-content/themes/blog/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="blog.css" rel="stylesheet">
+	  <link href="http://localhost/wp-content/themes/blog/blog.css" rel="stylesheet">
 	<!--    My style for this template-->
-	<link rel="stylesheet" href="custom.css">
+	  <link rel="stylesheet" href="http://localhost/wp-content/themes/blog/custom.css">
   </head>
 
   <body>
