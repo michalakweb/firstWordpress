@@ -1,9 +1,20 @@
-nav a:hover {
-	text-decoration: none;
-	color: yellow;
-}
+/*
+Globals
+*/
 
-main {
-	background-color: blue;
-}
 
+
+/*
+Navbar
+*/
+
+.nav {
+	a {
+		color: #3c3c3c;
+	}
+	a:hover {
+		text-decoration: none;
+		color: black;
+	}
+	
+}
