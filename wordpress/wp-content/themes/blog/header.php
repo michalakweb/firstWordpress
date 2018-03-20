@@ -29,7 +29,7 @@
 						<a class="text-muted" href="#"></a>
 					</div>
 					<div class="col-4 text-center">
-						<a class="blog-header-logo text-dark" href="#">Travelazja</a>
+						<a class="blog-header-logo text-dark" href="<?php echo get_bloginfo ('wpurl'); ?>">Travelazja</a>
 					</div>
 					<div class="col-4 d-flex justify-content-end align-items-center">
 						<a class="text-muted" href="#">
