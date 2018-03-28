@@ -12,13 +12,20 @@
 				
 			get_template_part( 'content', get_post_format() );
 			
-			endwhile; endif;
-			?>
+			endwhile; ?>
+			
+			<div class="nav-prev"><?php next_posts_link('Starsze'); ?>
+			</div>
+
+			<div class="nav-next alignright"><?php previous_posts_link( 'Nowsze' ); ?></div>
+
+
+			<?php else : ?>
+
+			<?php _e('Sorry, no posts matched your criteria.'); ?>
+
+			<?php endif; ?>
          
-          <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="#">Older</a>
-            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-          </nav>
 
         </div><!-- /.blog-main -->
         
