@@ -4,7 +4,7 @@
 
 <main role="main" class="container">
 	<div class="row mt-5">
-		<div class="col-md-12 blog-main">
+		<div class="col-md-10 col-centered  blog-main">
 			
 			<?php
 			if ( have_posts() ) : while (have_posts() ) : the_post();

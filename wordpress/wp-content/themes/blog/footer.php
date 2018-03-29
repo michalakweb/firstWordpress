@@ -25,6 +25,7 @@
 		text: 'Thumbnail'
 	});
 </script>
+<script src="http://localhost/wp-content/themes/blog/scripts/script.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

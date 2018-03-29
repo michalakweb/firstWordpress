@@ -2,6 +2,11 @@
 Globals
 */
 
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
 a {
 	color: #191919;
 	
@@ -25,10 +30,37 @@ Navbar
 Comments
 */
 
-#comment {
-	text-align: center;
-	color: red;
+.comment-list {
+	list-style: none;
+	margin-top: 2rem;
+	max-width: 720px;
+	margin-bottom: 3rem;
+	
+	li {
+		background-color: white;
+	}
 }
+
+
+img.avatar.avatar-50.photo {
+	display: none;
+}
+
+cite.fn {
+	font-size: 20px;
+}
+
+ul.children {
+	list-style: none;
+}
+
+.comment-respond {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+
 
 /*
 Footer 

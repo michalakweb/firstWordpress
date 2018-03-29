@@ -1,0 +1,93 @@
+[33mcommit f6fcfd9925cad9e57541f4659cf297e13e7872f5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mgithub/master[m[33m)[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Thu Mar 29 16:58:01 2018 +0700
+
+    - made a copy of original comment template file
+    - added comments
+    - the featured blog post is now only on the main page
+    - added link to one of the pages
+
+[33mcommit 302f2c00a33fda231cd133a5e10aaf430218b699[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Wed Mar 28 13:15:50 2018 +0700
+
+    - added pagination
+    - introduced few styling changes
+    - added single pages and single blog posts
+
+[33mcommit 22df159ed81a9df70a941fb8c9a7994876d9dc87[m
+Merge: 73f578a 985cc48
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 20 17:12:17 2018 +0700
+
+    - resolving merge issues
+
+[33mcommit 73f578a85d1e78b7c5703da13fa8277c5594a6fb[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 20 17:03:15 2018 +0700
+
+    - adding posts is fully functional
+    - "Archives" and "About me" load data from the back-end
+
+[33mcommit 784db2ee8f4c9c958db02d2bb93be8348c2b6366[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Fri Mar 16 15:11:34 2018 +0700
+
+    - styles update
+
+[33mcommit ce2af6ee4c900ff09107418b3eb6ca81b2817fb5[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Thu Mar 15 19:10:40 2018 +0700
+
+    - changes to style
+
+[33mcommit 7ca8b3e716a1f62768c95aa8e4363e05ee8e6307[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Thu Mar 15 18:52:43 2018 +0700
+
+    - few changes to html
+
+[33mcommit 927cc00d61ee6b0c1d35088bab54ab0b696b654d[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 14:26:22 2018 +0700
+
+    - structured the index.php file into subcategories
+    - initialized Gulp workflow
+    - created a branch for TODO list
+
+[33mcommit 0fd91ae317b8597a1123a47b8686fb4fb16d7d2d[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 14:04:53 2018 +0700
+
+    - moved the styles, images and fonts to Wordpress directory
+    - resolved styles dependencies
+    - resolve the jquery dependencies (TODO)
+
+[33mcommit c539effab38a066619088a0d0e170b08b3e5c41a[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 13:29:54 2018 +0700
+
+    - added the skeleton html and css
+    - commented out a featured post section (TODO)
+    - resolved Bootstrap dependencies
+    - added the theme to Wordpress repository
+
+[33mcommit 985cc48408c873030dce8b207bcdb5373db5c66a[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 13:29:54 2018 +0700
+
+    - added the skeleton html and css
+    - commented out a featured post section (TODO)
+    - resolved Bootstrap dependencies
+
+[33mcommit 1ba99d08899b6ba6a7e7475572418ee46b72265d[m[33m ([m[1;33mtag: v0.0.1[m[33m)[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 13:16:09 2018 +0700
+
+    - added and updated Wordpress
+
+[33mcommit 33033293eb4879f1baa66841539701f53bec4952[m
+Author: Mateusz Michalak <michalakweb@gmail.com>
+Date:   Tue Mar 13 12:58:51 2018 +0700
+
+    First commit
