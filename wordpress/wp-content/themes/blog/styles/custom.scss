@@ -26,6 +26,27 @@ Navbar
 }
 
 
+
+/*
+Thumbnails
+*/
+
+
+.img-responsive-16by9 {
+	display: block;
+	height: 0;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	margin-bottom: 2rem;
+	border-radius: 10px 10px;
+	
+	img {
+		border-radius: 10px 10px;
+	}
+	
+}
+
+
 /*
 Comments
 */
