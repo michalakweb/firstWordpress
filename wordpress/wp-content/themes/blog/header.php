@@ -24,14 +24,16 @@
 	</head>
 
 	<body>
-
-		<div class="container">
+		
+		<div id="headercontainer" class="container-fluid">
 			<header class="blog-header py-3">
 				<div class="row flex-nowrap justify-content-between align-items-center">
-					<div class="col-4 pt-1">
+				
+					<!--Empty space to push logo to center-->
+					<!--<div class="col-4 pt-1">
 						<a class="text-muted" href="#"></a>
-					</div>
-					<div class="col-4 text-center">
+					</div>--> 
+					<div class="col-4 text-left">
 						<a class="blog-header-logo text-dark" href="<?php echo get_bloginfo ('wpurl'); ?>">Travelazja</a>
 					</div>
 					<div class="col-4 d-flex justify-content-end align-items-center">
@@ -41,6 +43,10 @@
 					</div>
 				</div>
 			</header>
+		</div>
+
+		<div class="container">
+			
 
 			<div class="nav-scroller py-1 mb-2">
 				<nav class="nav d-flex justify-content-between">

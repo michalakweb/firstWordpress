@@ -1,6 +1,6 @@
-- set the logo, fonts and colors of the blog
+- set the logo, navbar, fonts and colors of the blog
 - update jquery and styles dependencies, according to Tania tutorial part 2
 - send the blog to a server
 - customize the footer
+- update comments section (Tania has a good style)
 - integrate the featured post section (currently commented out in the index.php)
-- plugin for cleaning featured images
