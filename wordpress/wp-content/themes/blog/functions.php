@@ -20,3 +20,12 @@ function startwordpress_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
+//Remove of featured images dimensions
+
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10, 3 );
+
+function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
+	$html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+	return $html;
+}
+

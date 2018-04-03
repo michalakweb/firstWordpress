@@ -10,15 +10,6 @@ main, .container {
 	background-color: white;
 }
 
-#single-container {
-	padding-left: 0px;
-	padding-right: 0px;
-	
-	img {
-		margin: 0 auto;
-	}
-}
-
 .col-centered{
 	float: none;
 	margin: 0 auto;
@@ -59,6 +50,7 @@ Thumbnails
 */
 
 
+/*
 .img-responsive-16by9 {
 	display: block;
 	height: 0;
@@ -68,6 +60,19 @@ Thumbnails
 	border-radius: 10px 10px;
 	
 	img {
+		border-radius: 10px 10px;
+	}
+	
+}
+*/
+
+.img-responsive-16by9 {
+	display: block;
+	margin-bottom: 2rem;
+	
+	img {
+		width: 100%;
+		height: auto;
 		border-radius: 10px 10px;
 	}
 	

@@ -1,6 +1,5 @@
-- update jquery and styles dependencies, according to Tania tutorial part 2
+- update comments section (Tania has a good style) //how to edit style of comment section
 - set the logo, fonts and colors of the blog
 - send the blog to a server
 - customize the footer
-- update comments section (Tania has a good style)
 - integrate the featured post section (currently commented out in the index.php)
