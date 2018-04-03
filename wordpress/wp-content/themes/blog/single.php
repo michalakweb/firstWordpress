@@ -2,8 +2,8 @@
 
 </div>
 
-<main role="main" class="container">
-	<div class="row mt-5">
+<main role="main" id='single-container' class="container">
+	<div class="row pt-4">
 		<div class="col-md-10 col-centered  blog-main">
 			
 			<?php

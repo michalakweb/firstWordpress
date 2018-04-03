@@ -1,6 +1,7 @@
 <?php if ( post_password_required() ) {
 	return;
 } ?>
+<?php comment_form(); ?>
 <div id="comments" class="comments-area">
 	<?php if ( have_comments() ) : ?>
 	<h3 class="comments-title">
@@ -23,5 +24,4 @@
 		<?php _e( 'Comments are closed.' ); ?>
 	</p>
 	<?php endif; ?>
-	<?php comment_form(); ?>
 </div>

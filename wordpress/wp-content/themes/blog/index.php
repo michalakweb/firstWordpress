@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md">
-			<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+			<div id="main-jumbotron" class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 				<div class="col-md-6 px-0">
 					<h1 class="display-4 font-italic">Title of a featured blog post</h1>
 					<p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently.</p>

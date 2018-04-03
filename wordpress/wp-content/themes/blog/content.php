@@ -10,7 +10,7 @@
 	
 	<a href="<?php comments_link(); ?>">
 		<?php
-		printf( _nx( '1 Comment', '%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ), number_format_i18n( 						get_comments_number() ) ); ?>
+		printf( _nx('1 Komentarz', 'Komentarze (%1$s)', get_comments_number(), 'comments title', 'textdomain' ), number_format_i18n( 						get_comments_number() ) ); ?>
 	</a>
 	
 </div><!-- /.blog-post -->
