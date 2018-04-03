@@ -17,29 +17,23 @@ a {
 	}
 }
 
-/*
-Header
-*/
-
-#headercontainer {
-	padding-left: 0;
-	padding-right: 0;
+.container {
+	margin: 0 auto;
 }
-
-
-.blog-header-logo {
-		padding-left: 0.8rem;
-	}
-
 
 /*
 Navbar
 */
 
-.blog-header-logo:hover {
-	background-color: unset;
+nav {
+	background-color: white;
+	box-shadow: 0px 1px 2px rgba(85, 85, 85, 0.37);
+	
+	.navbar-brand:hover {
+		background-color: unset;
+	}
+	
 }
-
 
 
 /*

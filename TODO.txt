@@ -1,5 +1,5 @@
-- set the logo, navbar, fonts and colors of the blog
 - update jquery and styles dependencies, according to Tania tutorial part 2
+- set the logo, fonts and colors of the blog
 - send the blog to a server
 - customize the footer
 - update comments section (Tania has a good style)
