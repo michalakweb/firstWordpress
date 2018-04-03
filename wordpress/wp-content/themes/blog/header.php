@@ -12,14 +12,6 @@
 
 		<title>Travelazja</title>
 
-		<!-- Bootstrap core CSS -->
-		<link href="http://localhost/wp-content/themes/blog/styles/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Custom styles for this template -->
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-		<link href="http://localhost/wp-content/themes/blog/styles/blog.css" rel="stylesheet">
-		<!--    My style for this template-->
-		<link rel="stylesheet" href="http://localhost/wp-content/themes/blog/styles/custom.css">
 		<?php wp_head(); ?>
 	</head>
 
