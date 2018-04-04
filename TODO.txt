@@ -1,4 +1,7 @@
-- set the logo, fonts and colors of the blog
+- set the logo, fonts and colors of the blog (navbar nomadic matt)
+- linki(kategorie): kierunki (rozwijana lista), o mnie, kontakt, 
 - send the blog to a server
 - customize the footer
 - integrate the featured post section (currently commented out in the index.php)
+- wyszukiwarka
+- po prawej: o blog, kategorie/tagi (jaka róznica), inne linki
