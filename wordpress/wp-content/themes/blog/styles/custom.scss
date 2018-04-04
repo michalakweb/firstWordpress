@@ -6,6 +6,11 @@ body {
 	background-color: beige;
 }
 
+main {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
 main, .container {
 	background-color: white;
 }
@@ -236,7 +241,40 @@ Footer
 */
 
 .blog-footer {
+	background-color: white;
+}
+
+/*
+Images
+*/
+
+#puppetL {
+	position: relative;
+	left: 0%;
+	width: 200px;
+	z-index: -1;
+
+	img {
+		position: absolute;
+		max-width: 100%;
+		left: 0;
+		bottom: 0;
+	}
+}
+
+#flagimage {
+	position: relative;
+	bottom: -70px;
+	left: 91%;
+	width: 9%;
+	z-index: -1;
 	
+	img {
+		position: absolute;
+		max-width: 100%;
+		left: 0;
+		bottom: 0;
+	}
 }
 
 
