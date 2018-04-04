@@ -1,4 +1,3 @@
-- update comments section (Tania has a good style) //how to edit style of comment section
 - set the logo, fonts and colors of the blog
 - send the blog to a server
 - customize the footer
