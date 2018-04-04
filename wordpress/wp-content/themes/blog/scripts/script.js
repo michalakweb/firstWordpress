@@ -24,5 +24,9 @@ var commentBtn = document.querySelector('#submit');
 commentBtn.setAttribute('class', 'btn btn-block btn-primary mb-5');
 commentBtn.value = "Dodaj komentarz";
 
+var commentBtnLogged = document.querySelector('input#submit.submit');
+commentBtn.setAttribute('class', 'btn btn-block btn-primary mb-5');
+commentBtn.value = "Dodaj komentarz";
+
 
 
