@@ -1,4 +1,3 @@
-- set the logo, fonts and colors of the blog (navbar nomadic matt)
 - linki(kategorie): kierunki (rozwijana lista), o mnie, kontakt, 
 - send the blog to a server
 - customize the footer
