@@ -14,11 +14,20 @@ function startwordpress_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/styles/bootstrap.min.css', array(), '3.3.6' );
 	wp_enqueue_style( 'blog', get_template_directory_uri() . '/styles/blog.css' );
 	wp_enqueue_style( 'custom', get_template_directory_uri() . '/styles/custom.css' );
+	wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/fonts/stylesheet.css' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/scripts/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/scripts/script.js', array(), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
+
+// Add Google Fonts
+function startwordpress_google_fonts() {
+	wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+	wp_enqueue_style( 'OpenSans');
+}
+
+add_action('wp_print_styles', 'startwordpress_google_fonts');
 
 //Remove of featured images dimensions
 

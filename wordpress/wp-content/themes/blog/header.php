@@ -17,8 +17,11 @@
 
 	<body>
 		
-		<nav class="navbar navbar-expand-md navbar-light py-3">
-			<a class="navbar-brand" href="<?php echo get_bloginfo ('wpurl'); ?>">Travelazja</a>
+		<nav class="navbar navbar-expand-md navbar-light">
+			<a id="logotext" class="navbar-brand" href="#">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="60px" height="60px" class="d-inline-block align-top" alt="">
+				<p>Travelazja</p>
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

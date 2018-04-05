@@ -2,6 +2,11 @@
 Globals
 */
 
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
+
 body {
 	background-color: beige;
 }
@@ -25,7 +30,7 @@ a {
 	
 	&:hover {
 		text-decoration: none;
-		background-color: rgba(199, 199, 199, 0.61);
+		background-color: #fcc900;
 		color: #2a2a2a;
 	}
 }
@@ -39,9 +44,19 @@ a {
 Navbar
 */
 
+.navbar-expand-md {
+	padding-bottom: 5px;
+}
+
+
 nav {
-	background-color: white;
-	box-shadow: 0px 1px 2px rgba(85, 85, 85, 0.37);
+	background-color: #c0d4c9;
+	box-shadow: 0px 1px 3px rgba(85, 85, 85, 0.66);
+	
+	.navbar-brand {
+		padding: 0px;
+		padding-top: 3px;
+	}
 	
 	.navbar-brand:hover {
 		background-color: unset;
@@ -50,25 +65,29 @@ nav {
 }
 
 
+#logotext {
+
+	p {
+		padding-left: 5px;
+		padding-right: 10px;
+		display: inline;
+		font-family: 'harvest_barn_demoregular';
+		font-size: 80px;
+		line-height: 65px;
+		margin-bottom: 0px;
+		
+	}
+}
+
+a.nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
 /*
 Thumbnails
-*/
-
-
-/*
-.img-responsive-16by9 {
-	display: block;
-	height: 0;
-	padding-bottom: 56.25%;
-	overflow: hidden;
-	margin-bottom: 2rem;
-	border-radius: 10px 10px;
-	
-	img {
-		border-radius: 10px 10px;
-	}
-	
-}
 */
 
 .img-responsive-16by9 {
@@ -233,16 +252,18 @@ em.comment-awaiting-moderation {
 	display:none;   
 }
 
+/*
+* Sidebar
+*/
 
+.blog-sidebar {
+	margin-bottom: 10px;
+}
 
 
 /*
 Footer 
 */
-
-.blog-footer {
-	background-color: white;
-}
 
 /*
 Images
@@ -253,6 +274,7 @@ Images
 	left: 0%;
 	width: 200px;
 	z-index: -1;
+	bottom: -10px;
 
 	img {
 		position: absolute;
