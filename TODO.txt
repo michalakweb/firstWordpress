@@ -1,6 +1,6 @@
-- linki(kategorie): kierunki (rozwijana lista), o mnie, kontakt, 
-- send the blog to a server
+- po prawej: o mnie krótko z linkiem do "o mnie", kategorie/tagi (jaka róznica), inne linki (okurka, nmatt)
 - customize the footer
+- first posts
+- send the blog to a server
 - integrate the featured post section (currently commented out in the index.php)
-- wyszukiwarka
-- po prawej: o blog, kategorie/tagi (jaka róznica), inne linki
+- wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych)
