@@ -28,11 +28,17 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Praktyczne</a>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kierunki</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Tajlandia</a>
+							<a class="dropdown-item" href="#">Kambodża</a>
+							<a class="dropdown-item" href="#">Chiny</a>
+							<a class="dropdown-item" href="#">Wietnam</a>
+						</div>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Podróżnicze </a>
+						<a class="nav-link" href="#">Praktyczne</a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="#">O mnie</a>
