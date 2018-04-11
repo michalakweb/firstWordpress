@@ -1,6 +1,8 @@
-- po prawej: o mnie krótko z linkiem do "o mnie", kategorie/tagi (jaka róznica), inne linki (okurka, nmatt)
+- po prawej: o mnie krótko z linkiem do "o mnie", kategorie/tagi podlinkowaæ, inne linki (okurka, nmatt)
 - customize the footer
+- szlify odnosnie wygladu postów
 - first posts
 - send the blog to a server
 - integrate the featured post section (currently commented out in the index.php)
 - wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych)
+- specjalna strona dla kategorii

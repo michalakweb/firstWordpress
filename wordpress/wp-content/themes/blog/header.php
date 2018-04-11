@@ -18,13 +18,14 @@
 	<body>
 		
 		<nav class="navbar navbar-expand-md navbar-light">
-			<a id="logotext" class="navbar-brand" href="#">
+			<a id="logotext" class="navbar-brand" href="<?php echo get_site_url() ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="60px" height="60px" class="d-inline-block align-top" alt="">
 				<p>Travelazja</p>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+			
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
@@ -34,7 +35,7 @@
 							<a class="dropdown-item" href="#">Tajlandia</a>
 							<a class="dropdown-item" href="#">Kambodża</a>
 							<a class="dropdown-item" href="#">Chiny</a>
-							<a class="dropdown-item" href="#">Wietnam</a>
+							<a class="dropdown-item" href="<?php echo get_category_link(8); ?> ">Wietnam</a>
 						</div>
 					</li>
 					<li class="nav-item active">
