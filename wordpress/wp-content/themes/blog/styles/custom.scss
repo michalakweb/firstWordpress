@@ -1,4 +1,22 @@
 /*
+Variables
+*/
+$mainColor: #c0d4c9;
+
+
+/*
+Mixins
+*/
+%logos {
+	display: block;
+	width: 125px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+/*
 Globals
 */
 
@@ -50,7 +68,7 @@ Navbar
 
 
 nav {
-	background-color: #c0d4c9;
+	background-color: $mainColor;
 	box-shadow: 0px 1px 3px rgba(85, 85, 85, 0.66);
 	
 	.navbar-brand {
@@ -264,8 +282,38 @@ em.comment-awaiting-moderation {
 
 .blog-sidebar {
 	margin-bottom: 10px;
+
 }
 
+#aboutme {
+	
+	h4 {
+		font-family: 'harvest_barn_demoregular';
+		font-size: 70px;
+		padding-left: 10px;
+		margin-top: -15px;
+	}
+	
+	#portret {
+		@extend %logos;
+	}
+}
+
+#linki {
+	
+	h4 {
+		font-family: 'harvest_barn_demoregular';
+		font-size: 70px;
+		padding-left: 10px;
+		margin-top: -15px;
+	}
+	
+	#okurkaLogo, {
+		width: 65px;
+		height: auto;
+	}
+	
+}
 
 /*
 Footer 
