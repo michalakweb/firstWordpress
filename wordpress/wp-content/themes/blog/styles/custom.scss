@@ -131,6 +131,14 @@ Thumbnails
 Comments
 */
 
+#komentarz {
+	color: #999;
+	
+	&:hover {
+		color: black;
+		}
+}
+
 .comment-respond,
 .entry-pings,
 .entry-comments {
