@@ -38,3 +38,15 @@ function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
 	return $html;
 }
 
+//Add "more" to the excerpt 
+
+
+function new_excerpt_more($more) {
+	global $post;
+	return '... <br><br> <a href="'. get_permalink($post->ID) . '"> CZYTAJ DALEJ > </a>';
+}
+
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
+

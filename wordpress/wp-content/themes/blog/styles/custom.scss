@@ -161,8 +161,10 @@ Comments
 }
 .comment-respond {
 	padding-bottom: 5%;
-	margin: 20px 1px 20px 1px;
+	margin: 0 auto;
+	margin-bottom: 30px;
 	border-left: none !important;
+	max-width: 600px;
 }
 .comment-header {
 	color: #adaeb3;
