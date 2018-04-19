@@ -1,5 +1,5 @@
-- first posts (3)
-- send the blog to a server!
-- integrate the featured post section (currently commented out in the index.php)
+- first posts (1)
+- ma³e porz¹dki
 - wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych)
 - specjalna strona dla kategorii
+- integrate the featured post section (currently commented out in the index.php)
