@@ -1,6 +1,4 @@
-- customize the footer
-- szlify odnosnie wygladu postów
-- first posts
+- first posts (3)
 - send the blog to a server!
 - integrate the featured post section (currently commented out in the index.php)
 - wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych)
