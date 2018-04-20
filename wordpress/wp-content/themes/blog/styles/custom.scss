@@ -15,6 +15,10 @@ Mixins
 	margin-bottom: 10px;
 }
 
+@mixin lightBorder {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 
 /*
 Globals
@@ -129,6 +133,10 @@ Thumbnails
 /*
 Posts
 */
+
+.blog-post-title {
+	font-family: "Raleway", sans-serif;
+}
 
 #readmorebtn {
 	color: black;
@@ -305,6 +313,8 @@ em.comment-awaiting-moderation {
 
 #aboutme {
 	
+	@include lightBorder;
+	
 	h4 {
 		font-family: 'harvest_barn_demoregular';
 		font-size: 70px;
@@ -319,6 +329,8 @@ em.comment-awaiting-moderation {
 
 #linki {
 	
+	@include lightBorder;
+	
 	h4 {
 		font-family: 'harvest_barn_demoregular';
 		font-size: 70px;
@@ -326,7 +338,7 @@ em.comment-awaiting-moderation {
 		margin-top: -15px;
 	}
 	
-	#okurkaLogo, {
+	#okurkaLogo {
 		width: 65px;
 		height: auto;
 	}

@@ -25,6 +25,8 @@ add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 function startwordpress_google_fonts() {
 	wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 	wp_enqueue_style( 'OpenSans');
+	wp_register_style('Raleway', 'https://fonts.googleapis.com/css?family=Raleway');
+	wp_enqueue_style( 'Raleway');
 }
 
 add_action('wp_print_styles', 'startwordpress_google_fonts');
@@ -43,7 +45,7 @@ function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
 
 function new_excerpt_more($more) {
 	global $post;
-	return '... <br><br> <a id="readmorebtn" type="button" class="btn btn-outline-warning" href="'. get_permalink($post->ID) . '"> CZYTAJ DALEJ </a>';
+	return '... <br><br> <a id="readmorebtn" class="btn btn-outline-warning" href="'. get_permalink($post->ID) . '"> CZYTAJ DALEJ </a>';
 }
 
 add_filter('excerpt_more', 'new_excerpt_more');
