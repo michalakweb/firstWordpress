@@ -33,9 +33,9 @@
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kierunki</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="<?php echo get_category_link(9); ?>">Tajlandia</a>
-							<a class="dropdown-item" href="<?php echo get_category_link(10); ?>">Kambodża</a>
+							<!--<a class="dropdown-item" href="<?php echo get_category_link(10); ?>">Kambodża</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(11); ?>">Chiny</a>
-							<a class="dropdown-item" href="<?php echo get_category_link(8); ?>">Wietnam</a>
+							<a class="dropdown-item" href="<?php echo get_category_link(8); ?>">Wietnam</a>-->
 						</div>
 					</li>
 					<li class="nav-item active">
@@ -45,7 +45,7 @@
 						<a class="nav-link" href="#">O mnie</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="<?php echo get_permalink(get_page_by_title('kontakt')); ?>">Kontakt</a>
+						<a class="nav-link" href="#">Kontakt</a>
 					</li>
 				</ul>
 				

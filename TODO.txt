@@ -1,4 +1,3 @@
-- pochowaæ czêœæ linków, ¿eby nie myli³o
 - first posts (1 zwyk³y + 1 praktyczny[szukanie wolontariatu])
 - specjalna strona dla kategorii z odrêbn¹ pêtl¹, pokazuj¹c¹ w inny sposób posty z tylko jednej kategorii
   (naszkicowaæ to i u¿yæ flexa/bootstrap) + WP_Query
