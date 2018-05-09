@@ -1,0 +1,46 @@
+//
+//SIDEBAR
+//
+
+/*
+* Sidebar
+*/
+
+.blog-sidebar {
+	margin-bottom: 10px;
+
+}
+
+#aboutme {
+
+	@extend %lightBorder;
+
+	h4 {
+		font-family: 'harvest_barn_demoregular';
+		font-size: 70px;
+		padding-left: 10px;
+		margin-top: -15px;
+	}
+
+	#portret {
+		@extend %logos;
+	}
+}
+
+#linki {
+
+	@extend %lightBorder;
+
+	h4 {
+		font-family: 'harvest_barn_demoregular';
+		font-size: 70px;
+		padding-left: 10px;
+		margin-top: -15px;
+	}
+
+	#okurkaLogo {
+		width: 65px;
+		height: auto;
+	}
+
+}

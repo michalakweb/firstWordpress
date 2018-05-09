@@ -1,0 +1,48 @@
+/*
+Navbar
+*/
+
+.navbar-expand-md {
+	padding-bottom: 5px;
+}
+
+
+nav {
+	background-color: $mainColor;
+	box-shadow: 0px 1px 3px rgba(85, 85, 85, 0.66);
+
+	.navbar-brand {
+		padding: 0px;
+		padding-top: 3px;
+	}
+
+	.navbar-brand:hover {
+		background-color: unset;
+	}
+
+}
+
+
+#logotext {
+
+	p {
+		padding-left: 5px;
+		padding-right: 10px;
+		display: inline;
+		font-family: 'harvest_barn_demoregular';
+		font-size: 80px;
+		line-height: 65px;
+		margin-bottom: 0px;
+
+	}
+}
+
+a.nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.dropdown-menu {
+	background-color: #d0e6da;
+}
