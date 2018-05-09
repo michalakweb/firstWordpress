@@ -1,11 +1,11 @@
-- first posts (1 zwyk³y + 1 praktyczny[szukanie wolontariatu])
+- first posts (1 praktyczny[szukanie wolontariatu])
+- wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych czy kategorii)
 - specjalna strona dla kategorii z odrêbn¹ pêtl¹, pokazuj¹c¹ w inny sposób posty z tylko jednej kategorii
   (naszkicowaæ to i u¿yæ flexa/bootstrap) + WP_Query
-- wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych)
-- ze 2 posty // jeden wpis tygodniowo
-- dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO);
+- jeden wpis tygodniowo
+- dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO) + tytu³ posta w zak³adce;
 - wykupienie domeny
 - zrobienie tych rzeczy od SSL itd.
 - regularne zapisywanie kopii
-- KONIEC kolejny krok z "do nauki" //ile wpisów tygodniowo
+- KONIEC kolejny krok z "do nauki" //jeden wpis tygodniowo
 

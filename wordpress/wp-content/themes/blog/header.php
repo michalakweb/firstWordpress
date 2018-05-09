@@ -47,6 +47,9 @@
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Kontakt</a>
 					</li>
+					<li>
+						<!--<?php get_search_form(); ?>-->
+					</li>
 				</ul>
 				
 				<!--Szukajka-->
