@@ -48,9 +48,22 @@
 						<a class="nav-link" href="#">Kontakt</a>
 					</li>
 					<li>
-						<!--<?php get_search_form(); ?>-->
+						
 					</li>
 				</ul>
+				<div class="d-none d-lg-block">
+					<form role="search" method="get" id="searchform" class="searchform" action="http://localhost/">
+						<div class="form-row align-items-center" id="searchcontainer">
+							<label class="screen-reader-text" for="s"></label>
+							<div class="col-auto">
+								<input class="form-control" type="text" value="" name="s" id="s">
+							</div>
+							<div class="col-auto">
+								<input class="btn btn-info text-light" type="submit" id="searchsubmit" value="Szukaj">
+							</div>
+						</div>
+					</form>
+				</div>
 				
 				<!--Szukajka-->
 				
