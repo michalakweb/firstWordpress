@@ -52,7 +52,8 @@
 					</li>
 				</ul>
 				<div class="d-none d-lg-block">
-					<form role="search" method="get" id="searchform" class="searchform" action="http://localhost/">
+
+					<form role="search" method="get" id="searchform" class="searchform" action="http://michalakweb.000webhostapp.com/">
 						<div class="form-row align-items-center" id="searchcontainer">
 							<label class="screen-reader-text" for="s"></label>
 							<div class="col-auto">

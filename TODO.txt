@@ -1,5 +1,4 @@
 - first posts (1 praktyczny[szukanie wolontariatu])
-- wyszukiwarka (poczytaæ jak on wyszukuje wg tagów czy s³ów kluczowych czy kategorii)
 - specjalna strona dla kategorii z odrêbn¹ pêtl¹, pokazuj¹c¹ w inny sposób posty z tylko jednej kategorii
   (naszkicowaæ to i u¿yæ flexa/bootstrap) + WP_Query
 - jeden wpis tygodniowo

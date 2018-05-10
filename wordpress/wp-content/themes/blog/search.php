@@ -54,8 +54,13 @@
 	<div class="row">
 		<div class="col-md-8 blog-main">
 
-			
-			<h3 class="pb-3 mb-4 border-bottom">Wyniki wyszukiwania:</h3>
+			<h3 class="pb-3 mb-4 border-bottom">Wyniki wyszukiwania</h3>
+			<!--Conditional statements that rely on categories-->
+			<!--<?php if(is_category( 'Wietnam' )) : ?>
+<h3 class="pb-3 mb-4 border-bottom">Najnowsze wpisy prosto z Wietnamu</h3>
+<?php  else: ?>
+<h3 class="pb-3 mb-4 border-bottom">Najnowsze wpisy</h3>
+<?php endif; ?>-->
 
 			<?php
 			if ( have_posts() ) : while (have_posts() ) : the_post();
