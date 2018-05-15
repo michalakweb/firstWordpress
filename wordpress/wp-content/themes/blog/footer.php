@@ -2,11 +2,11 @@
 
 </main><!-- /.container -->
 
-<img id="puppetL" class="d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/images/puppet1.png" alt="puppet decoration image">
+<!--<img id="puppetL" class="d-none d-lg-block" src="<?php echo get_template_directory_uri(); ?>/images/puppet1.png" alt="puppet decoration image">
 
 <div class="d-none d-lg-block" id="flagimage">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/chineseflag.png" alt="puppet decoration image">
-</div>
+</div>-->
 
 
 <footer class="blog-footer">

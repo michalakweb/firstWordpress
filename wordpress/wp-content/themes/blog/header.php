@@ -31,7 +31,7 @@
 					<li class="nav-item dropdown active">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kierunki</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item text-white" href="<?php echo get_category_link(9); ?>">Tajlandia</a>
+							<a class="dropdown-item text-white" href="<?php echo get_page_link(41); ?>">Tajlandia</a>
 							<!--<a class="dropdown-item" href="<?php echo get_category_link(10); ?>">Kambodża</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(11); ?>">Chiny</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(8); ?>">Wietnam</a>-->
@@ -65,12 +65,6 @@
 					</form>
 				</div>
 				
-				<!--Szukajka-->
-				
-				<!--<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>-->
 			</div>
 		</nav>
 
