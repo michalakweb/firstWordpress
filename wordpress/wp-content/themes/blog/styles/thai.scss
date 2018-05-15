@@ -1,5 +1,5 @@
 body, html {
-	height:  100%;
+	height:  100vh;
 	color: white;
 }
 
@@ -17,7 +17,7 @@ main {
 
 .destLoop {
 	background-color: rgba(0,0,0,0.8);
-	height: auto;
+	height: 100vh; 
 	
 	a {
 		color: white;
