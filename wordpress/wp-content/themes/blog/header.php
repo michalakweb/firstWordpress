@@ -18,9 +18,9 @@
 	<body>
 		
 		<nav class="navbar navbar-expand-md navbar-dark">
-			<a id="logotext" class="navbar-brand justify-content-center" href="<?php echo get_site_url() ?>">
+			<a id="logotext" class="navbar-brand mx-auto pr-2" href="<?php echo get_site_url() ?>">
 				<p>Travelazja</p>
-			</a>
+			</a> 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -50,6 +50,7 @@
 						
 					</li>
 				</ul>
+				
 				<div class="d-none d-lg-block">
 
 					<form role="search" method="get" id="searchform" class="searchform" action="http://michalakweb.000webhostapp.com/">
@@ -64,13 +65,7 @@
 						</div>
 					</form>
 				</div>
-				
-				<!--Szukajka-->
-				
-				<!--<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>-->
+
 			</div>
 		</nav>
 

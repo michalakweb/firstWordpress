@@ -19,6 +19,12 @@ nav {
 	.navbar-brand:hover {
 		background-color: unset;
 	}
+	
+	.navbar-toggler {
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
 
 }
 
