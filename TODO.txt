@@ -1,6 +1,8 @@
 - first posts (1 praktyczny[szukanie wolontariatu])
-- specjalna strona dla kategorii z odrêbn¹ pêtl¹, pokazuj¹c¹ w inny sposób posty z tylko jednej kategorii
-  (naszkicowaæ to i u¿yæ flexa/bootstrap) + WP_Query
+- za pomoc¹ nowej pêtli ustawiæ listê tematów (podzieliæ na "praktyczne", "z pamiêtnika"). Na komputerze
+jako flexowe karty, a na komórce jako zwyk³a lista. Ustawiæ zmianê nazwy strony na kierunek w funkcjach.
+Przetestowaæ i wprowadziæ na stronê.
+
 - jeden wpis tygodniowo
 - dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO) + tytu³ posta w zak³adce;
 - wykupienie domeny
