@@ -27,11 +27,11 @@
 			
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto text-center">
 					<li class="nav-item dropdown active">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kierunki</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="<?php echo get_category_link(9); ?>">Tajlandia</a>
+							<a class="dropdown-item text-white" href="<?php echo get_category_link(9); ?>">Tajlandia</a>
 							<!--<a class="dropdown-item" href="<?php echo get_category_link(10); ?>">Kambodża</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(11); ?>">Chiny</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(8); ?>">Wietnam</a>-->

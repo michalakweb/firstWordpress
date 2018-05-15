@@ -47,7 +47,11 @@ a.nav-link {
 }
 
 .dropdown-menu {
-	background-color: #d0e6da;
+	background-color: $mainColor;
+}
+
+.dropdown-item:hover {
+	background-color: $myGreen;
 }
 
 /*
