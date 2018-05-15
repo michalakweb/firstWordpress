@@ -17,7 +17,7 @@ gulp.task('workflow', function() {
 });
 
 gulp.task('default', function() {
-	gulp.watch('././wordpress/wp-content/themes/blog/styles/*.scss', ['workflow']);
+	gulp.watch('././wordpress/wp-content/themes/blog/styles/**/*.scss', ['workflow']);
 });
 
 
