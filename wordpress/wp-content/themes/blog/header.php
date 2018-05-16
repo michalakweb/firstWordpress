@@ -18,9 +18,19 @@
 	<body>
 		
 		<nav class="navbar navbar-expand-md navbar-dark">
+<<<<<<< HEAD
 			<a id="logotext" class="navbar-brand mx-auto pr-2" href="<?php echo get_site_url() ?>">
 				<p>Travelazja</p>
 			</a> 
+=======
+			<a id="logotext" class="navbar-brand justify-content-center" href="<?php echo get_site_url() ?>">
+				<?php if(is_page_template( 'destination.php' )) : ?>
+					<p>Tajlandia</p>
+				<?php  else: ?>
+					<p>Travelazja</p>
+				<?php endif; ?>
+			</a>
+>>>>>>> customPage
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -31,7 +41,7 @@
 					<li class="nav-item dropdown active">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Kierunki</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item text-white" href="<?php echo get_category_link(9); ?>">Tajlandia</a>
+							<a class="dropdown-item text-white" href="<?php echo get_page_link(41); ?>">Tajlandia</a>
 							<!--<a class="dropdown-item" href="<?php echo get_category_link(10); ?>">Kambodża</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(11); ?>">Chiny</a>
 							<a class="dropdown-item" href="<?php echo get_category_link(8); ?>">Wietnam</a>-->
@@ -65,7 +75,11 @@
 						</div>
 					</form>
 				</div>
+<<<<<<< HEAD
 
+=======
+				
+>>>>>>> customPage
 			</div>
 		</nav>
 

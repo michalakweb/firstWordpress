@@ -1,0 +1,35 @@
+body, html {
+	height:  100vh;
+	color: white;
+}
+
+main {
+	padding-top: 0;
+}
+
+a {
+	color: black;
+}
+
+.thaiBg {
+	padding-top: 0;
+	height:     auto;       /* These two lines were the key. */
+	min-height: 100%;
+	background: url(../images/thaiBg.jpg) center center;
+	background-size: cover;
+}
+
+.destLoop {
+	background-color: rgba(0,0,0,0.8);
+	min-height: 100vh; 
+}
+
+.card {
+	background-color: rgba(255,255,255,0.9); 
+	border-color: black;
+}
+
+.card-body {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
