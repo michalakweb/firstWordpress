@@ -19,7 +19,11 @@
 		
 		<nav class="navbar navbar-expand-md navbar-dark">
 			<a id="logotext" class="navbar-brand justify-content-center" href="<?php echo get_site_url() ?>">
-				<p>Travelazja</p>
+				<?php if(is_page_template( 'destination.php' )) : ?>
+					<p>Tajlandia</p>
+				<?php  else: ?>
+					<p>Travelazja</p>
+				<?php endif; ?>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>

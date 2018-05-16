@@ -66,7 +66,7 @@
 		<h3 class="mt-4 mb-3">Praktyczne:</h3>
 
 
-				<ul class="list-group list-group-flush rounded d-md-none text-dark">
+				<ul class="list-group list-group-flush d-md-none text-dark">
 					<?php
 					$catThailand = new WP_Query('tag=praktyczne');
 
