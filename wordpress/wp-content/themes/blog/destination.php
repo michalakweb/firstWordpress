@@ -5,21 +5,24 @@
 <main role="main" class="container-fluid thaiBg">
 	<div class="row">
 		<div class="container-fluid destLoop">
-			<h3>Z pamiętnika:</h3>
+			<h3 class="mt-4 mb-3">Z pamiętnika:</h3>
 			
 			
-			<div class="row">
+			<div class="row justify-content-center">
 					<?php
 					$catThailand = new WP_Query('cat=9');
 
 					if ( $catThailand->have_posts() ) : while ($catThailand->have_posts() ) : $catThailand->the_post();
 					?>
 
-				<div class="col mb-1">
+				<div class="col-auto mb-2">
 					<div class="card text-dark" style="width: 15rem;">
-						<img class="card-img-top" src=<?php echo the_post_thumbnail('my-mainpage-thumb'); ?>
+						<a href="<?php the_permalink(); ?>">
+							<img class="card-img-top" src=<?php echo the_post_thumbnail('my-mainpage-thumb'); ?>
+						</a>
+						
 						<div class="card-body">
-							<h6 class="card-title"><?php the_title(); ?></h6>
+							<h6 class=""><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
 						</div>
 					</div>
 				</div>
@@ -44,24 +47,26 @@
 			        <?php wp_reset_postdata(); ?>
 			</div>
 			
-			<h3>Praktyczne:</h3>
+		<h3 class="mt-4 mb-3">Praktyczne:</h3>
 
 
-			<div class="row">
+			<div class="row justify-content-center mb-4">
 				<?php
 				$catThailand = new WP_Query('cat=9');
 
 				if ( $catThailand->have_posts() ) : while ($catThailand->have_posts() ) : $catThailand->the_post();
 				?>
 
-				<div class="col mb-1">
+				<div class="col-auto mb-2">
 					<div class="card text-dark" style="width: 15rem;">
-						<img class="card-img-top" src=<?php echo the_post_thumbnail('my-mainpage-thumb'); ?>
-							 <div class="card-body">
-						<h6 class="card-title"><?php the_title(); ?></h6>
+						<a href="<?php the_permalink(); ?>">
+							<img class="card-img-top" src=<?php echo the_post_thumbnail('my-mainpage-thumb'); ?>
+						</a>
+						<div class="card-body">
+							<h6 class=""><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
+						</div>
 					</div>
 				</div>
-			</div>
 
 
 			<?php

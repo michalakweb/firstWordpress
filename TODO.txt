@@ -3,6 +3,9 @@
 jako flexowe karty, a na komórce jako zwyk³a lista. Ustawiæ zmianê nazwy strony na kierunek w funkcjach.
 Przetestowaæ i wprowadziæ na stronê.
 
+2) Na komputerze jako flexowe karty
+3) Na komórce jako zwyk³a lista
+
 - jeden wpis tygodniowo
 - dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO) + tytu³ posta w zak³adce;
 - wykupienie domeny

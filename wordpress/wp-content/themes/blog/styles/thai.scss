@@ -7,6 +7,10 @@ main {
 	padding-top: 0;
 }
 
+a {
+	color: black;
+}
+
 .thaiBg {
 	padding-top: 0;
 	height:     auto;       /* These two lines were the key. */
@@ -18,14 +22,6 @@ main {
 .destLoop {
 	background-color: rgba(0,0,0,0.8);
 	min-height: 100vh; 
-	
-	a {
-		color: white;
-	}
-	
-	h2 {
-		color: white;
-	}
 }
 
 .card {
