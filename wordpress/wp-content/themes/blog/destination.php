@@ -10,7 +10,7 @@
 			
 			<div class="row justify-content-center">
 					<?php
-					$catThailand = new WP_Query('cat=9');
+					$catThailand = new WP_Query('cat=9&tag=pamietnik&orderby=title&order=ASC');
 
 					if ( $catThailand->have_posts() ) : while ($catThailand->have_posts() ) : $catThailand->the_post();
 					?>
@@ -52,7 +52,7 @@
 
 			<div class="row justify-content-center mb-4">
 				<?php
-				$catThailand = new WP_Query('cat=9');
+				$catThailand = new WP_Query('tag=praktyczne');
 
 				if ( $catThailand->have_posts() ) : while ($catThailand->have_posts() ) : $catThailand->the_post();
 				?>
