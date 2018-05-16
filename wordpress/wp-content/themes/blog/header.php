@@ -17,20 +17,15 @@
 
 	<body>
 		
-		<nav class="navbar navbar-expand-md navbar-dark">
-<<<<<<< HEAD
-			<a id="logotext" class="navbar-brand mx-auto pr-2" href="<?php echo get_site_url() ?>">
-				<p>Travelazja</p>
-			</a> 
-=======
-			<a id="logotext" class="navbar-brand justify-content-center" href="<?php echo get_site_url() ?>">
+	<nav class="navbar navbar-expand-md navbar-dark">
+		<a id="logotext" class="navbar-brand justify-content-center mx-auto pr-2" href="<?php echo get_site_url() ?>">
 				<?php if(is_page_template( 'destination.php' )) : ?>
 					<p>Tajlandia</p>
 				<?php  else: ?>
 					<p>Travelazja</p>
 				<?php endif; ?>
 			</a>
->>>>>>> customPage
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -75,11 +70,7 @@
 						</div>
 					</form>
 				</div>
-<<<<<<< HEAD
 
-=======
-				
->>>>>>> customPage
 			</div>
 		</nav>
 
