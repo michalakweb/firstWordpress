@@ -1,6 +1,5 @@
-- dopicowanie jakichœ meta-informacji (lista) ¿eby pojawiæ siê w wyszukiwarce (SEO)
+- lista SEO i zrobiæ je
 - zrobienie tych rzeczy od SSL itd.
 - jak regularne zapisywanie kopii
 
 - KONIEC kolejny krok z "do nauki" //jeden wpis tygodniowo
-
