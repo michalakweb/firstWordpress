@@ -50,10 +50,13 @@ function new_excerpt_more($more) {
 
 add_filter('excerpt_more', 'new_excerpt_more');
 
-//Add custom CSS to the "Thai destination" page
+//Add custom CSS to the "Thai destination" and "Practical" page
 
 function thai_enqueue_page_template_styles() {
 	if ( is_page_template( 'destination.php' ) ) {
+		wp_enqueue_style( 'page-template', get_template_directory_uri() . '/styles/thai.css' );
+	}
+	else if ( is_page_template( 'practical.php' ) ) {
 		wp_enqueue_style( 'page-template', get_template_directory_uri() . '/styles/thai.css' );
 	}
 }
