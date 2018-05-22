@@ -62,5 +62,8 @@ function thai_enqueue_page_template_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'thai_enqueue_page_template_styles' );
 
+// WordPress titles in the tab
+add_theme_support( 'title-tag' );
+
 
 

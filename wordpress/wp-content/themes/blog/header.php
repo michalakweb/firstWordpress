@@ -10,8 +10,6 @@
 		<meta name="author" content="Mateusz Michalak">
 		<link rel="icon" href="../../../../favicon.ico">
 
-		<title>Travelazja</title>
-
 		<?php wp_head(); ?>
 	</head>
 
