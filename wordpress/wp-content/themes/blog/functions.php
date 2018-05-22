@@ -45,7 +45,7 @@ function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
 
 function new_excerpt_more($more) {
 	global $post;
-	return '... <br><br> <a id="readmorebtn" class="btn btn-outline-warning" href="'. get_permalink($post->ID) . '"> CZYTAJ DALEJ </a>';
+	return '... <br><br> <a id="readmorebtn" class="btn btn-success text-light" href="'. get_permalink($post->ID) . '"> CZYTAJ DALEJ </a>';
 }
 
 add_filter('excerpt_more', 'new_excerpt_more');
