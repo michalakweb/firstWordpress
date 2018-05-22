@@ -1,13 +1,9 @@
 - first posts (1 praktyczny[szukanie wolontariatu])
-
-3) Na komórce jako zwyk³a lista
-4) ustawiæ zmianê nazwy strony na kierunek w funkcjach
-5) przetestowaæ i na stronê
-
-- jeden wpis tygodniowo
+- margines dolny na main, odp link do komentarzy, zielone przyciski, 
+- przeniesc petle z kierunku do praktyczne (stworzyæ stronê praktyczne)
 - dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO) + tytu³ posta w zak³adce;
-- wykupienie domeny
 - zrobienie tych rzeczy od SSL itd.
-- regularne zapisywanie kopii
+- jak regularne zapisywanie kopii
+
 - KONIEC kolejny krok z "do nauki" //jeden wpis tygodniowo
 
