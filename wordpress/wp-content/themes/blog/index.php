@@ -50,7 +50,7 @@
 </div>
 --> 
 
-    <main role="main" class="container pt-4">
+    <main role="main" class="container pt-4 pb-2">
       <div class="row">
         <div class="col-md-8 blog-main">
         
