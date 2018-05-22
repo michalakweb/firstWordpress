@@ -18,6 +18,7 @@
 			endwhile; endif;
 			?>
 
+		<div id="comments"></div>
 
 		</div><!-- /.blog-main -->
 

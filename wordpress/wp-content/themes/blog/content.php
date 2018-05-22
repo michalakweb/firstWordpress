@@ -2,7 +2,7 @@
 	<h2 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 	<p class="blog-post-meta">
 		<?php the_date('d-m-Y'); ?> · <!--by <a href="#"><?php the_author(); ?>-->
-		<a id="komentarz" href="<?php comments_link(); ?>">
+		<a id="komentarz" href="<?php echo the_permalink(); ?>/#comments">
 			<?php
 			printf( _nx('1 Komentarz', 'Komentarze (%1$s)', get_comments_number(), 'comments title', 'textdomain' ), number_format_i18n( 						get_comments_number() ) ); ?>
 		</a>
