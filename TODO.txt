@@ -1,7 +1,4 @@
-- first posts (1 praktyczny[szukanie wolontariatu])
-- margines dolny na main, odp link do komentarzy, zielone przyciski, 
-- przeniesc petle z kierunku do praktyczne (stworzyæ stronê praktyczne)
-- dopicowanie jakichœ meta-informacji ¿eby pojawiæ siê w wyszukiwarce (SEO) + tytu³ posta w zak³adce;
+- dopicowanie jakichœ meta-informacji (lista) ¿eby pojawiæ siê w wyszukiwarce (SEO)
 - zrobienie tych rzeczy od SSL itd.
 - jak regularne zapisywanie kopii
 

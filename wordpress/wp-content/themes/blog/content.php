@@ -1,5 +1,5 @@
 <div class="blog-post">
-	<h2 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+	<h1 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 	<p class="blog-post-meta">
 		<?php the_date('d-m-Y'); ?> · <!--by <a href="#"><?php the_author(); ?>-->
 		<a id="komentarz" href="<?php echo the_permalink(); ?>/#comments">
