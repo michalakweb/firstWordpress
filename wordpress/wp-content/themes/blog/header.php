@@ -43,7 +43,7 @@
 						</div>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Praktyczne</a>
+						<a class="nav-link" href="<?php echo get_page_link(); ?>">Praktyczne</a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="#">O mnie</a>
